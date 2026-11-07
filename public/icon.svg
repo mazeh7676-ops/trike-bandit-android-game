@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="triYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <linearGradient id="triGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <linearGradient id="triPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners for Android -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+
+  <!-- Road curve -->
+  <path d="M 0 420 Q 256 360 512 420 L 512 512 L 0 512 Z" fill="#334155" />
+  <path d="M 0 430 Q 256 370 512 430" stroke="#f8fafc" stroke-width="8" stroke-dasharray="24 16" fill="none" opacity="0.6" />
+
+  <!-- Cute Sheep in trailer behind -->
+  <g transform="translate(140, 200)">
+    <circle cx="50" cy="50" r="38" fill="#f8fafc" />
+    <circle cx="30" cy="40" r="24" fill="#f8fafc" />
+    <circle cx="70" cy="40" r="24" fill="#f8fafc" />
+    <circle cx="50" cy="25" r="24" fill="#f8fafc" />
+    <!-- Sheep face (Baluchi black face) -->
+    <ellipse cx="50" cy="55" rx="18" ry="22" fill="#1e293b" />
+    <circle cx="43" cy="52" r="3.5" fill="#ffffff" />
+    <circle cx="57" cy="52" r="3.5" fill="#ffffff" />
+    <circle cx="44" cy="53" r="1.5" fill="#000000" />
+    <circle cx="56" cy="53" r="1.5" fill="#000000" />
+    <!-- Ears -->
+    <ellipse cx="28" cy="48" rx="8" ry="4" transform="rotate(-20 28 48)" fill="#1e293b" />
+    <ellipse cx="72" cy="48" rx="8" ry="4" transform="rotate(20 72 48)" fill="#1e293b" />
+  </g>
+
+  <!-- Cargo Cart -->
+  <rect x="130" y="270" width="120" height="70" rx="8" fill="#854d0e" />
+  <rect x="135" y="280" width="110" height="8" fill="#a16207" />
+  <rect x="135" y="300" width="110" height="8" fill="#a16207" />
+  <!-- Cart wheel -->
+  <circle cx="150" cy="345" r="26" fill="url(#triPink)" stroke="#475569" stroke-width="5" />
+  <circle cx="150" cy="345" r="8" fill="#fde047" />
+
+  <!-- Tricycle Body & Main Character (Front view) -->
+  <g transform="translate(250, 110)">
+    <!-- Character Torso (Black polo shirt) -->
+    <path d="M 40 180 L 120 180 L 130 270 L 30 270 Z" fill="#0f172a" />
+    <polygon points="65,180 80,205 95,180" fill="#1e293b" stroke="#334155" stroke-width="2" />
+
+    <!-- Head & Hair -->
+    <ellipse cx="80" cy="130" rx="40" ry="46" fill="#dec0a5" />
+    <path d="M 38 125 C 38 75 122 75 122 125 C 122 105 110 88 80 88 C 50 88 38 105 38 125 Z" fill="#18181b" />
+    <!-- Cool Sunglasses -->
+    <rect x="44" y="120" width="72" height="20" rx="4" fill="#09090b" stroke="#27272a" stroke-width="2" />
+    <line x1="50" y1="126" x2="72" y2="126" stroke="#52525b" stroke-width="2" opacity="0.6" />
+    <line x1="88" y1="126" x2="110" y2="126" stroke="#52525b" stroke-width="2" opacity="0.6" />
+
+    <!-- Arms holding handlebars -->
+    <path d="M 40 190 Q 0 240 15 260" stroke="#dec0a5" stroke-width="18" stroke-linecap="round" fill="none" />
+    <path d="M 120 190 Q 160 240 145 260" stroke="#dec0a5" stroke-width="18" stroke-linecap="round" fill="none" />
+
+    <!-- Lime Green Handlebars -->
+    <path d="M 10 260 Q 80 250 150 260" stroke="url(#triGreen)" stroke-width="12" stroke-linecap="round" fill="none" />
+    <!-- Red Grips -->
+    <rect x="2" y="252" width="22" height="16" rx="4" fill="#ef4444" />
+    <rect x="136" y="252" width="22" height="16" rx="4" fill="#ef4444" />
+
+    <!-- Front Yellow Steering Cowl -->
+    <rect x="58" y="260" width="44" height="60" rx="10" fill="url(#triYellow)" />
+    <!-- Red badge / reflector -->
+    <circle cx="80" cy="285" r="12" fill="#ef4444" />
+
+    <!-- Front Big Pink Wheel -->
+    <circle cx="80" cy="340" r="48" fill="url(#triPink)" stroke="#fde047" stroke-width="10" />
+    <circle cx="80" cy="340" r="16" fill="#fde047" />
+    <!-- Pedals -->
+    <rect x="40" y="334" width="16" height="12" rx="3" fill="#f8fafc" />
+    <rect x="104" y="334" width="16" height="12" rx="3" fill="#f8fafc" />
+  </g>
+
+  <!-- Speed lines & Sparks -->
+  <path d="M 30 380 L 100 380" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+  <path d="M 50 405 L 120 405" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+</svg>

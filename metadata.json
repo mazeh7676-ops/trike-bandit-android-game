@@ -1,0 +1,6 @@
+{
+  "name": "سه‌چرخه شوتی: دزد گوسفند (Tricycle Sheep Rustler 3D)",
+  "description": "یک بازی سه‌بعدی هیجان‌انگیز و طنز با سه‌چرخه کودکانه در روستا برای دزدیدن گوسفندان و پر کردن تریلر بار با فرار از چوپان",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
